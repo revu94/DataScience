@@ -1,0 +1,75 @@
+.center {
+    border: 5px solid #FFFF00;
+    text-align: center;
+}
+
+.center1 {
+    border: 5px solid #FFFF00;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: rgb(57, 130, 107);
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 12px sans-serif;
+    stroke: rgb(65, 146, 146);
+}
+
+.link {
+    fill: none;
+    stroke: rgb(245, 55, 55);
+    stroke-width: 2px;
+}
+
+.node_c {
+    cursor: pointer;
+}
+
+.node_c:hover {
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
+.node_c--leaf {
+    fill: rgb(249, 249, 249);
+}
+
+.label {
+    font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+}
+
+.label,
+.node_c--root,
+.node_c--leaf {
+    pointer-events: none;
+}
+
+.child {
+    display: inline-block;
+}
+
+.box-shadow {
+    background: white;
+    box-shadow: 4px 3px 8px 1px rgb(131, 127, 127);
+    -webkit-box-shadow: 4px 3px 8px 1px rgb(131, 127, 127);
+}
+
+.suncenter {
+    text-align: center;
+}
+
+select.mySelect {
+    background: #20d492;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 22px;
+}
+
+select.mySelect option {
+    color: #000;
+    padding: 0 10px;
+}
