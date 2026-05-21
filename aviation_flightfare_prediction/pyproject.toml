@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aviation-flightfare-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Revathy <revathiajay420@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^3.0.3"
+openpyxl = "^3.1.5"
+matplotlib = "^3.10.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
